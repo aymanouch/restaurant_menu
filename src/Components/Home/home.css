@@ -1,0 +1,56 @@
+#home .box-container_homeimg{
+ width:100%;
+ height:80vh;
+ background-image:url("../../images/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+ background-size:cover;
+ color:#fff;
+}
+#home .box-container_homeimg .title_big-restaurant-name{
+    position: absolute;
+    width: 100%;
+    height:80vh;
+    background:#00000095;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .box-container_homeimg .title_big-restaurant-name h1{
+    font-size: 7rem;
+    letter-spacing: .3rem;
+    text-align: center;
+}
+#home .box-container_homeimg .title_big-restaurant-name p{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+}
+#home .box-container_homeimg .container-btn {
+   position:absolute;
+   bottom:20%;
+   width:100vw;
+}
+#home .box-container_homeimg .container-btn a{
+    display:block;
+    padding:1.5rem 2rem;
+    background:#ba0000;
+    color:#fff;
+    max-width:50%;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: "Anton", sans-serif;
+}
+
+@media screen and (max-width:625px) {
+    #home .box-container_homeimg .title_big-restaurant-name h1{
+        margin: 0 0 1.3rem 0;
+        font-size: 3rem;
+        letter-spacing: 0;
+    }
+    #home .box-container_homeimg .title_big-restaurant-name p{
+        font-size: 1.3rem;
+    }
+}
